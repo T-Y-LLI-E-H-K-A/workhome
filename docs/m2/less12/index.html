@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+    <title>HTML 12</title>
+</head>
+
+<body>
+    <header>
+        <h1>Добро пожаловать в службу доставки свежих огурцов.</h1>
+        <q>Большие и твёрдые, это о наших огурцах!</q>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Контактные данные</legend>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Фамилия">
+                <input type="tel" placeholder="Номер телефона">
+                <input type="email" placeholder="Электронная почта">
+            </fieldset>
+            <fieldset>
+                <legend>Оформление доставки</legend>
+                <input list="sity" placeholder="Город доставки">
+                <datalist id="sity">
+                    <option value="sity1">Москва</option>
+                    <option value="sity2">Казань</option>
+                    <option value="sity3">Санкт-Петербург</option>
+                    <option value="sity4">Архангельск</option>
+                    <option value="sity5">Тула</option>
+                    <option value="sity6">Челябинск</option>
+                </datalist>
+                <input type="text" placeholder="Адрес">
+                <input type="date" name="" id="">
+                <input type="time" name="" id="">
+            </fieldset>
+            <fieldset>
+                <legend>Оформление заказа</legend>
+                <label> Желаемый размер огурцов:
+                    <label>S
+                        <input type="radio" name="size">
+                    </label>
+                    <label>M
+                        <input type="radio" name="size">
+                    </label>
+                    <label>XL
+                        <input type="radio" name="size">
+                    </label>
+                    <label>XXL
+                        <input type="radio" name="size">
+                    </label>
+                </label>
+                <br>
+                <label for="">
+                    Ведите колличество огурцов, которое хотите заказать:
+                    <input type="number">
+                </label>
+            </fieldset>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

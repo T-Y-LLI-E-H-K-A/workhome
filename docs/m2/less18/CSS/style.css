@@ -1,0 +1,13 @@
+body {
+    background-color: #232121;
+    color: aqua;
+    text-align: center;
+    
+}
+div {
+    padding-top: 200px;
+}
+a {
+    font-size: 30px;
+    padding: 100px;
+}
