@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    color: aqua;
+    background-color: #232121;
+    
+    
+}
+p {
+    font-size: 30px;
+    padding: 25px 25px 0;
+    width: 50vmax;
+    max-height: 100px;
+    overflow: auto;
+
+}
